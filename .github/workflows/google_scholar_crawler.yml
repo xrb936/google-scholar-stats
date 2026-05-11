@@ -5,6 +5,9 @@ on:
     - cron: "0 8 * * *"   # Daily at 08:00 UTC
   workflow_dispatch:        # Manual trigger from Actions tab
 
+permissions:
+  contents: write
+
 jobs:
   crawl:
     runs-on: ubuntu-latest
