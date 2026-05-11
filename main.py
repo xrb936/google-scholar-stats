@@ -1,4 +1,4 @@
-from scholarly import scholarly
+from scholarly import scholarly, ProxyGenerator
 import json
 import os
 from datetime import datetime
@@ -6,6 +6,17 @@ from datetime import datetime
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 CONFIG_PATH = os.path.join(SCRIPT_DIR, "config.json")
 RESULTS_DIR = os.path.join(SCRIPT_DIR, "results")
+
+
+def setup_proxy():
+    proxy_url = os.environ.get("SOCKS5_PROXY")
+    if not proxy_url:
+        print("No SOCKS5_PROXY env var set, using direct connection.")
+        return
+    pg = ProxyGenerator()
+    pg.SingleProxy(http=proxy_url, https=proxy_url)
+    scholarly.use_proxy(pg)
+    print(f"SOCKS5 proxy configured.")
 
 
 def load_config():
@@ -46,6 +57,8 @@ def fetch_scholar(scholar_id, name=""):
 
 
 def main():
+    setup_proxy()
+
     config = load_config()
     scholars = config.get("scholars", [])
 

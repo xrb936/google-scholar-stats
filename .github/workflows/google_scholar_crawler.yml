@@ -20,6 +20,8 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run crawler
+        env:
+          SOCKS5_PROXY: ${{ secrets.SOCKS5_PROXY }}
         run: python main.py
 
       - name: Push results to google-scholar-stats branch
