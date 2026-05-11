@@ -1,4 +1,4 @@
-from scholarly import scholarly, ProxyGenerator
+from scholarly import scholarly
 import json
 import os
 from datetime import datetime
@@ -13,10 +13,10 @@ def setup_proxy():
     if not proxy_url:
         print("No SOCKS5_PROXY env var set, using direct connection.")
         return
-    pg = ProxyGenerator()
-    pg.SingleProxy(http=proxy_url, https=proxy_url)
-    scholarly.use_proxy(pg)
-    print(f"SOCKS5 proxy configured.")
+    proxies = {"http": proxy_url, "https": proxy_url}
+    scholarly._navigator._session.proxies = proxies
+    scholarly._navigator.got_403 = False
+    print("SOCKS5 proxy configured.")
 
 
 def load_config():

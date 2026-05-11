@@ -1,0 +1,67 @@
+{
+  "scholar_id": "XVSSq8oAAAAJ",
+  "name": "Rongbing Xu",
+  "affiliation": "Department of Systems Design Engineering, University of Waterloo",
+  "citedby": 33,
+  "hindex": 4,
+  "i10index": 1,
+  "cites_per_year": {
+    "2023": 1,
+    "2024": 6,
+    "2025": 15,
+    "2026": 11
+  },
+  "publications": {
+    "XVSSq8oAAAAJ:WF5omc3nYNoC": {
+      "title": "Computational cognitive modeling of pilot performance in pre-flight and take-off procedures",
+      "num_citations": 11,
+      "pub_year": "2024"
+    },
+    "XVSSq8oAAAAJ:d1gkVwhDpl0C": {
+      "title": "Modeling pilot flight performance in a cognitive architecture: Model demonstration",
+      "num_citations": 7,
+      "pub_year": "2021"
+    },
+    "XVSSq8oAAAAJ:YsMSGLbcyi4C": {
+      "title": "Construction of a novel dual S-scheme CdS@ Si-α-Fe2O3/ZnO heterojunction for visible-light-driven photo-Fenton degradation of ciprofloxacin",
+      "num_citations": 4,
+      "pub_year": "2025"
+    },
+    "XVSSq8oAAAAJ:zYLM7Y9cAGgC": {
+      "title": "A comprehensive data collection and processing protocol for general aviation pilot performance assessment and behaviour research",
+      "num_citations": 4,
+      "pub_year": "2025"
+    },
+    "XVSSq8oAAAAJ:W7OEmFMy1HYC": {
+      "title": "An in-flight multimodal data collection method for assessing pilot cognitive states and performance in general aviation",
+      "num_citations": 3,
+      "pub_year": "2025"
+    },
+    "XVSSq8oAAAAJ:9yKSN-GCB0IC": {
+      "title": "Modeling Pilot Flight Performance on Pre-flight and Take-off Tasks with A Cognitive Architecture",
+      "num_citations": 3,
+      "pub_year": "2022"
+    },
+    "XVSSq8oAAAAJ:Y0pCki6q_DkC": {
+      "title": "Measuring Pilot Mental Workload During Flights Without PAPI Lights Using a Wearable Device",
+      "num_citations": 1,
+      "pub_year": "2025"
+    },
+    "XVSSq8oAAAAJ:ufrVoPGSRksC": {
+      "title": "Granger Causality Analysis of Pilots’ Physiological Data",
+      "num_citations": 0,
+      "pub_year": "2026"
+    },
+    "XVSSq8oAAAAJ:_FxGoFyzp5QC": {
+      "title": "MRSEI Tailored to Mining Disturbance Reveals Unstable Habitat-quality Recovery and Rebound Risk in a Coal-Mining Region (1992-2022)",
+      "num_citations": 0,
+      "pub_year": "2026"
+    },
+    "XVSSq8oAAAAJ:Tyk-4Ss8FVUC": {
+      "title": "Bridging Cognitive Modeling and Pilot Training: A Qn-Actr Model for Complex Flight Tasks",
+      "num_citations": 0,
+      "pub_year": "2025"
+    }
+  },
+  "updated": "2026-05-11T14:23:47.084287"
+}
