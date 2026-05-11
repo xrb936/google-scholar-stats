@@ -1,6 +1,7 @@
 from scholarly import scholarly
 import json
 import os
+import time
 from datetime import datetime
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -69,7 +70,11 @@ def main():
 
     os.makedirs(RESULTS_DIR, exist_ok=True)
 
-    for entry in scholars:
+    for i, entry in enumerate(scholars):
+        if i > 0:
+            print("Waiting 5 minutes before next scholar...")
+            time.sleep(300)
+
         scholar_id = entry["id"]
         name = entry.get("name", "")
         try:
