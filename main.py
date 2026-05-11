@@ -14,8 +14,9 @@ def setup_proxy():
         print("No SOCKS5_PROXY env var set, using direct connection.")
         return
     proxies = {"http": proxy_url, "https": proxy_url}
-    scholarly._navigator._session.proxies = proxies
-    scholarly._navigator.got_403 = False
+    nav = scholarly._Scholarly__nav
+    nav._session1.proxies = proxies
+    nav._session2.proxies = proxies
     print("SOCKS5 proxy configured.")
 
 
