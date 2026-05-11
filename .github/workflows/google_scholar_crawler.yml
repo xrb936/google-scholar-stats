@@ -1,0 +1,33 @@
+name: Google Scholar Crawler
+
+on:
+  schedule:
+    - cron: "0 8 * * *"   # Daily at 08:00 UTC
+  workflow_dispatch:        # Manual trigger from Actions tab
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run crawler
+        run: python main.py
+
+      - name: Push results to google-scholar-stats branch
+        run: |
+          cd results
+          git init
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Update Google Scholar stats $(date +'%Y-%m-%d')"
+          git push --force "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" HEAD:google-scholar-stats
