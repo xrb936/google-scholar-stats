@@ -1,0 +1,102 @@
+{
+  "scholar_id": "XVSSq8oAAAAJ",
+  "name": "Rongbing Xu",
+  "affiliation": "Department of Systems Design Engineering, University of Waterloo",
+  "citedby": 63,
+  "hindex": 5,
+  "i10index": 4,
+  "cites_per_year": {
+    "2023": 1,
+    "2024": 6,
+    "2025": 16,
+    "2026": 38
+  },
+  "publications": {
+    "XVSSq8oAAAAJ:WF5omc3nYNoC": {
+      "title": "Computational cognitive modeling of pilot performance in pre-flight and take-off procedures",
+      "num_citations": 19,
+      "pub_year": "2024"
+    },
+    "XVSSq8oAAAAJ:YsMSGLbcyi4C": {
+      "title": "Construction of a novel dual S-scheme CdS@ Si-α-Fe2O3/ZnO heterojunction for visible-light-driven photo-Fenton degradation of ciprofloxacin",
+      "num_citations": 10,
+      "pub_year": "2025"
+    },
+    "XVSSq8oAAAAJ:W7OEmFMy1HYC": {
+      "title": "An in-flight multimodal data collection method for assessing pilot cognitive states and performance in general aviation",
+      "num_citations": 10,
+      "pub_year": "2025"
+    },
+    "XVSSq8oAAAAJ:d1gkVwhDpl0C": {
+      "title": "Modeling pilot flight performance in a cognitive architecture: Model demonstration",
+      "num_citations": 10,
+      "pub_year": "2021"
+    },
+    "XVSSq8oAAAAJ:Y0pCki6q_DkC": {
+      "title": "Measuring pilot mental workload during flights without PAPI lights using a wearable device",
+      "num_citations": 5,
+      "pub_year": "2026"
+    },
+    "XVSSq8oAAAAJ:zYLM7Y9cAGgC": {
+      "title": "A comprehensive data collection and processing protocol for general aviation pilot performance assessment and behaviour research",
+      "num_citations": 4,
+      "pub_year": "2025"
+    },
+    "XVSSq8oAAAAJ:9yKSN-GCB0IC": {
+      "title": "Modeling Pilot Flight Performance on Pre-flight and take-off tasks with a cognitive architecture",
+      "num_citations": 3,
+      "pub_year": "2022"
+    },
+    "XVSSq8oAAAAJ:LkGwnXOMwfcC": {
+      "title": "Consumer-grade wearable sensors for classifying pilot workload and stress during real flight training: A leave-one-subject-out validation study",
+      "num_citations": 1,
+      "pub_year": "2026"
+    },
+    "XVSSq8oAAAAJ:Tyk-4Ss8FVUC": {
+      "title": "Bridging cognitive modeling and pilot training: a QN-ACTR model for complex flight tasks",
+      "num_citations": 1,
+      "pub_year": "2025"
+    },
+    "XVSSq8oAAAAJ:0EnyYjriUFMC": {
+      "title": "Habitat-quality dynamics and reversal-risk diagnostics in Southwest China using a productivity–hydrology enhanced RSEI framework",
+      "num_citations": 0,
+      "pub_year": "2026"
+    },
+    "XVSSq8oAAAAJ:Se3iqnhoufwC": {
+      "title": "Cognitive Architecture Modelling for Understanding Pilot Behaviour: Applying QN-ACTR to Flight Training in Takeoff and Landing",
+      "num_citations": 0,
+      "pub_year": "2026"
+    },
+    "XVSSq8oAAAAJ:hqOjcs7Dif8C": {
+      "title": "Applying QN-ACTR to Flight Training in Takeoff and Landing",
+      "num_citations": 0,
+      "pub_year": "2026"
+    },
+    "XVSSq8oAAAAJ:UebtZRa9Y70C": {
+      "title": "Feasibility of Participant-Independent Classification of Pilot Stress and Workload During Real In-Aircraft Tasks Using Consumer-Grade Frontal EEG",
+      "num_citations": 0,
+      "pub_year": "2026"
+    },
+    "XVSSq8oAAAAJ:roLk4NBRz8UC": {
+      "title": "Stress Analysis of Aircraft Maintenance Personnel Under Single-Task and Dual-Task Conditions Using a Wearable Device",
+      "num_citations": 0,
+      "pub_year": "2026"
+    },
+    "XVSSq8oAAAAJ:ufrVoPGSRksC": {
+      "title": "Granger Causality Analysis of Pilots’ Physiological Data",
+      "num_citations": 0,
+      "pub_year": "2026"
+    },
+    "XVSSq8oAAAAJ:_FxGoFyzp5QC": {
+      "title": "MRSEI Tailored to Mining Disturbance Reveals Unstable Habitat-quality Recovery and Rebound Risk in a Coal-Mining Region (1992-2022)",
+      "num_citations": 0,
+      "pub_year": "2026"
+    },
+    "XVSSq8oAAAAJ:5nxA0vEk-isC": {
+      "title": "From Signal to Construct Evidence: Multimodal Consumer-Wearable Sensing in Real General-Aviation Flight",
+      "num_citations": 0,
+      "pub_year": ""
+    }
+  },
+  "updated": "2026-09-06T11:46:23.709103"
+}
